@@ -60,7 +60,13 @@ augroup END
 """ PLUGIN Configuration
 "" Airline
 set encoding=utf-8
-let g:airline_powerline_fonts   = 1
+let g:airline_powerline_fonts             = 1
+let g:airline_enable_branch               = 3
+let g:airline_enable_syntastic            = 1
+
+let g:airline#extensions#hunk#enabled     = 0
+let g:airline#extensions#branch#enabled   = 1
+let g:airline#extensions#tabline#enabled  = 1
 
 "" NERDTree
 let NERDTreeWinPos="left"
