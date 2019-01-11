@@ -64,12 +64,22 @@ let g:airline_powerline_fonts   = 1
 
 "" NERDTree
 let NERDTreeWinPos="left"
+set modifiable
+
+"" GitGutter
+let g:gitgutter_realtime = 0
+let g:gitgutter_eager = 0
 
 """ Key Remapping
 " NERDTree
 nmap <F9> :NERDTreeToggle<CR>
+nmap <leader>r :NERDTreeFind<CR>
+
 " Split Windows
 nmap <C-h> <C-w>h<CR>
 nmap <C-j> <C-w>j<CR>
 nmap <C-k> <C-w>k<CR>
 nmap <C-l> <C-w>l<CR>
+
+" For python
+autocmd FileType python nnoremap <buffer> <F5> :!./%<CR>
