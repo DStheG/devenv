@@ -5,4 +5,6 @@
 	email = xcrossx@gmail.com
 	nalme = Dongseok Han
 [core]
-	editor = nvim
+	editor = vi
+[push]
+	default = simple
