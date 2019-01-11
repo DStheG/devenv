@@ -39,6 +39,8 @@ set hlsearch
 set nu
 set mouse=a
 set t_Co=256
+" Change selection color as reverse
+hi Visual term=reverse cterm=reverse
 
 " Status Line
 set list
