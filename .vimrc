@@ -37,6 +37,7 @@ set expandtab
 set hlsearch
 " Set Linenumber
 set nu
+set rnu
 set mouse=a
 set t_Co=256
 " Change selection color as reverse
@@ -82,10 +83,10 @@ nmap <F9> :NERDTreeToggle<CR>
 nmap <leader>r :NERDTreeFind<CR>
 
 " Split Windows
-nmap <C-h> <C-w>h<CR>
-nmap <C-j> <C-w>j<CR>
-nmap <C-k> <C-w>k<CR>
-nmap <C-l> <C-w>l<CR>
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
 
 " For python
 autocmd FileType python nnoremap <buffer> <F5> :!./%<CR>
