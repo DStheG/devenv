@@ -43,6 +43,19 @@ set t_Co=256
 " Change selection color as reverse
 hi Visual term=reverse cterm=reverse
 
+" ctags
+set tags=./tags;
+
+" cscope
+set csprg=/usr/bin/cscope
+set csto=0
+set cst
+set nocsverb
+if filereadable("./cscope.out")
+  cs add ./cscope.out
+endif
+set csverb
+
 " Status Line
 set list
 set listchars=tab:>-,trail:-
