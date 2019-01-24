@@ -1,7 +1,8 @@
 if has('nvim')
-  call plug#begin()
+  call plug#begin('~/.config/nvim/plugged')
   Plug 'scrooloose/nerdtree'
-  Plug 'bling/vim-airline'
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
   Plug 'airblade/vim-gitgutter'
   Plug 'MattesGroeger/vim-bookmarks'
   Plug 'epeli/neovim-config'
