@@ -6,6 +6,7 @@ if has('nvim')
   Plug 'airblade/vim-gitgutter'
   Plug 'MattesGroeger/vim-bookmarks'
   Plug 'epeli/neovim-config'
+  Plug 'kien/ctrlp.vim'
 
   " Color Scheme
   Plug 'phanviet/vim-monokai-pro'
@@ -20,6 +21,7 @@ endif
 """ General Configuration
 syntax on
 filetype plugin indent on
+set langmenu=en_US.UTF-8
 
 colorscheme molokai
 let g:rehash256=1
@@ -46,7 +48,6 @@ hi Visual term=reverse cterm=reverse
 
 " ctags
 set tags=./tags;
-
 " cscope
 set csprg=/usr/bin/cscope
 set csto=0
