@@ -1,12 +1,18 @@
 if has('nvim')
   call plug#begin('~/.config/nvim/plugged')
-  Plug 'scrooloose/nerdtree'
-  Plug 'vim-airline/vim-airline'
-  Plug 'vim-airline/vim-airline-themes'
-  Plug 'airblade/vim-gitgutter'
   Plug 'MattesGroeger/vim-bookmarks'
+  Plug 'airblade/vim-gitgutter'
+  Plug 'dyng/ctrlsf.vim'
   Plug 'epeli/neovim-config'
   Plug 'kien/ctrlp.vim'
+  Plug 'majutsushi/tagbar'
+  Plug 'scrooloose/nerdtree'
+  Plug 'scrooloose/syntastic'
+  Plug 'terryma/vim-multiple-cursors'
+  Plug 'tpope/vim-fugitive'
+  Plug 'tpope/vim-surround'
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
 
   " Color Scheme
   Plug 'phanviet/vim-monokai-pro'
