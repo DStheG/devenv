@@ -1,10 +1,11 @@
 [alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
 [user]
 	email = xcrossx@gmail.com
-	nalme = Dongseok Han
+	name = Dongseok Han
 [core]
 	editor = nvim
+	pager = cat
 [push]
 	default = simple
